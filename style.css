@@ -28,17 +28,14 @@ html, button, input, select, textarea {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Arvo', 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
+    font-family: 'Syncopate', 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
     font-weight: 700;
 }
 a {
-	color: #000;
-}
-p a {
-	font-weight: 600;
+	color: #0a3a7c;
 }
 a:hover, a:focus {
-	color: #000;
+    color: #3399ff;
 }
 table {
 	border-bottom: 1px solid #ededed;
@@ -72,6 +69,10 @@ td {
 	padding: 6px 10px 6px 0;
 }
 
+.top-buffer {
+    margin-top: 1em;
+}
+
 /**
  * Hyphenation
  * ----------------------------------------------------------------------------
@@ -101,6 +102,13 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
  * ----------------------------------------------------------------------------
  */
 
+.navbar {
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0;
+    background-color: #0a3a7c;
+    margin-bottom: 0;
+}
 .main-navigation ul > li {
 	display: block;
 	float: left;
@@ -118,24 +126,17 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
 	color: #3399ff;
 }
-.navbar {
-	text-transform: uppercase;
-	font-weight: 500;
-	border-radius: 0;
-	background-color: rgba(0,0,0,.5);
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-brand:focus {
+    color: #3399ff;
 }
+
 /**
  * Header
  * ----------------------------------------------------------------------------
  */
  
 header {
-	background-color: #eee;
-}
-.bc-banner {
-	background-color: #444;
-	padding-top: 100px;
-	padding-bottom: 60px;
+	background-color: #00b2ee;
 }
 .intro-text {
     text-align: center;
@@ -157,56 +158,26 @@ header {
  * Main
  * ----------------------------------------------------------------------------
  */
- 
+
 .bc-main {
-	margin-bottom: 40px;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
 }
+.bc-content {
+    padding-bottom: 4em;
+}
+
 /**
  * Footer
  * ----------------------------------------------------------------------------
  */
  
 footer {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-color: #eee;
+	color: #ffffff;
+	background-color: #0a3a7c;
 }
-footer .bc-info {
-	padding: 20px;
-	margin-top: 20px;
-}
-footer ul {
-	list-style-type: none;
-	padding: 0;
-}
-/**
- * Home
- * ----------------------------------------------------------------------------
- */
-
-.bc-home h1 {
-
-}
-.bc-content {
-    margin-top: 40px;
-}
-.bc-post-loop-wrap article {
-    margin: 30px 0 60px 0;
-}
-.bc-intro {
-	background-color: #eee;
-}
-.bc-about {
-	background-color: #fff;
-}
-.bc-featured {
-	background-color: #eee;
-}
-.bc-post-loop {
-	background-color: #fff;
-}
-.widget-panel {
-	padding: 36px 0;
+footer a {
+    color: #ffffff;
 }
 
 
@@ -214,19 +185,21 @@ footer ul {
  * Page & Posts
  * ----------------------------------------------------------------------------
  */
- 
+ .bc-content .container {
+     background-color: #ffffff;
+ }
  .entry-thumbnail {
  	margin-top: 36px
  }
-
- 
-
-/**
- * Sidebar & Widgets
- * ----------------------------------------------------------------------------
- */
-
-
+.content-row {
+    margin-bottom: 42px;
+}
+.page-header {
+    color: #0a3a7c;
+}
+.entry-content {
+    color: #00b2ee;
+}
 
  /**
  * Images
