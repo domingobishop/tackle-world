@@ -18,7 +18,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <link rel='stylesheet' id='blank-canvas' href='<?php echo get_template_directory_uri(); ?>/style.css'
           type='text/css' media='all'/>
-    <link href='https://fonts.googleapis.com/css?family=Syncopate:700|Open+Sans:400,700,400italic' rel='stylesheet'
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:700|Sarina|Open+Sans:400,700,400italic' rel='stylesheet'
           type='text/css'>
     <?php wp_head(); ?>
 </head>
@@ -28,14 +28,16 @@
     <header id="head" class="bc-head">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-10 col-lg-10">
+                <div class="col-sm-12 col-md-8 col-lg-8">
                     <a href="<?php bloginfo('siteurl'); ?>/"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
-                        <img src="http://placehold.it/400x120?text=logo" class="img-responsive">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Tackle World" class="img-responsive">
                     </a>
                 </div>
-                <div class="col-sm-12 col-md-2 col-lg-2">
-                    <p>Call: 000000000</p>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="call-us text-right">
+                    <h4>Call (08) 8682 4550</h4>
+                        </div>
                 </div>
             </div>
         </div>
