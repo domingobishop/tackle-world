@@ -35,4 +35,6 @@ function add_image_responsive_class($content) {
 }
 add_filter('the_content', 'add_image_responsive_class');
 
+add_theme_support( 'post-thumbnails' );
+
 ?>
