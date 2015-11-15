@@ -106,6 +106,7 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
     font-weight: 500;
     border-radius: 0;
     background-color: #0a3a7c;
+    margin-bottom: 0;
 }
 .main-navigation ul > li {
 	display: block;
@@ -133,11 +134,6 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
 header {
 	background-color: #00b2ee;
 }
-.bc-banner {
-	background-color: #444;
-	padding-top: 100px;
-	padding-bottom: 60px;
-}
 .intro-text {
     text-align: center;
 	color: #fff;
@@ -158,10 +154,12 @@ header {
  * Main
  * ----------------------------------------------------------------------------
  */
- 
+
 .bc-main {
-	margin-bottom: 40px;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
 }
+
 /**
  * Footer
  * ----------------------------------------------------------------------------
@@ -185,27 +183,10 @@ footer ul {
  * ----------------------------------------------------------------------------
  */
 
-.bc-home h1 {
-
-}
-.bc-content {
-    margin-top: 40px;
-}
 .bc-post-loop-wrap article {
     margin: 30px 0 60px 0;
 }
-.bc-intro {
-	background-color: #eee;
-}
-.bc-about {
-	background-color: #fff;
-}
-.bc-featured {
-	background-color: #eee;
-}
-.bc-post-loop {
-	background-color: #fff;
-}
+
 .widget-panel {
 	padding: 36px 0;
 }
