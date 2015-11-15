@@ -1,62 +1,7 @@
 <?php get_header(); ?>
 
-<div class="bc-banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <h1>
-                        <?php bloginfo('name'); ?>
-                    </h1>
-
-                    <h3>
-                        <?php bloginfo('description'); ?>
-                        <h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <div id="content" class="bc-home bc-content" role="main">
-    <?php if (is_active_sidebar('sidebar-4')) { ?>
-        <section id="bc-intro" class="bc-intro bc-panel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="widget-panel">
-                            <?php dynamic_sidebar('sidebar-4'); ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <?php } ?>
-    <?php if (is_active_sidebar('sidebar-5')) { ?>
-        <section id="bc-about" class="bc-about bc-panel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="widget-panel">
-                            <?php dynamic_sidebar('sidebar-5'); ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <?php } ?>
-    <?php if (is_active_sidebar('sidebar-6')) { ?>
-        <section id="bc-featured" class="bc-featured bc-panel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="widget-panel">
-                            <?php dynamic_sidebar('sidebar-6'); ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <?php } ?>
+
     <section id="bc-post-loop" class="bc-post-loop bc-panel">
         <div class="container">
             <div class="row">
