@@ -101,6 +101,12 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
  * ----------------------------------------------------------------------------
  */
 
+.navbar {
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0;
+    background-color: #0a3a7c;
+}
 .main-navigation ul > li {
 	display: block;
 	float: left;
@@ -118,19 +124,14 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
 	color: #3399ff;
 }
-.navbar {
-	text-transform: uppercase;
-	font-weight: 500;
-	border-radius: 0;
-	background-color: rgba(0,0,0,.5);
-}
+
 /**
  * Header
  * ----------------------------------------------------------------------------
  */
  
 header {
-	background-color: #eee;
+	background-color: #00b2ee;
 }
 .bc-banner {
 	background-color: #444;
