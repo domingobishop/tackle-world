@@ -72,6 +72,10 @@ td {
 	padding: 6px 10px 6px 0;
 }
 
+.top-buffer {
+    margin-top: 1em;
+}
+
 /**
  * Hyphenation
  * ----------------------------------------------------------------------------
@@ -196,7 +200,9 @@ footer ul {
  * Page & Posts
  * ----------------------------------------------------------------------------
  */
- 
+ .bc-content .container {
+     background-color: #ffffff;
+ }
  .entry-thumbnail {
  	margin-top: 36px
  }
