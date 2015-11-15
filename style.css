@@ -28,14 +28,11 @@ html, button, input, select, textarea {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Arvo', 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
+    font-family: 'Syncopate', 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
     font-weight: 700;
 }
 a {
-	color: #000;
-}
-p a {
-	font-weight: 600;
+	color: #0a3a7c;
 }
 a:hover, a:focus {
     color: #3399ff;
@@ -129,6 +126,9 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
 	color: #3399ff;
 }
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-brand:focus {
+    color: #3399ff;
+}
 
 /**
  * Header
@@ -179,14 +179,6 @@ footer {
 footer a {
     color: #ffffff;
 }
-footer .bc-info {
-
-}
-
-/**
- * Home
- * ----------------------------------------------------------------------------
- */
 
 
 /**
@@ -199,15 +191,15 @@ footer .bc-info {
  .entry-thumbnail {
  	margin-top: 36px
  }
-
- 
-
-/**
- * Sidebar & Widgets
- * ----------------------------------------------------------------------------
- */
-
-
+.content-row {
+    margin-bottom: 42px;
+}
+.page-header {
+    color: #0a3a7c;
+}
+.entry-content {
+    color: #00b2ee;
+}
 
  /**
  * Images
