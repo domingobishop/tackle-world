@@ -38,7 +38,7 @@ p a {
 	font-weight: 600;
 }
 a:hover, a:focus {
-	color: #000;
+    color: #3399ff;
 }
 table {
 	border-bottom: 1px solid #ededed;
@@ -163,6 +163,9 @@ header {
     background-image: url('img/bg.jpg');
     background-size: cover;
 }
+.bc-content {
+    padding-bottom: 4em;
+}
 
 /**
  * Footer
@@ -170,30 +173,20 @@ header {
  */
  
 footer {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-color: #eee;
+	color: #ffffff;
+	background-color: #0a3a7c;
+}
+footer a {
+    color: #ffffff;
 }
 footer .bc-info {
-	padding: 20px;
-	margin-top: 20px;
+
 }
-footer ul {
-	list-style-type: none;
-	padding: 0;
-}
+
 /**
  * Home
  * ----------------------------------------------------------------------------
  */
-
-.bc-post-loop-wrap article {
-    margin: 30px 0 60px 0;
-}
-
-.widget-panel {
-	padding: 36px 0;
-}
 
 
 /**

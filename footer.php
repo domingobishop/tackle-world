@@ -3,12 +3,15 @@
 
 <footer id="footer" class="bc-footer">
   <div class="container">
-    <div class="row bc-info">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p><small>Copyright © <?php echo date("Y"); ?> <br>
-           Blank Canvas with Bootstrap <br>
-          Theme by <a href="http://chrisbishop.me.uk/" target="_blank">Chris Bishop</a></small></p>
+    <div class="row bc-info top-buffer">
+      <div class="col-sm-12 col-md-6 col-lg-6 text-left">
+        <p><small>
+          created by <a href="http://creatistic.com.au/" target="_blank">creatistic</a><br>
+                Copyright © <?php echo date("Y"); ?> </small></p>
       </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 text-right">
+            <p><img src="http://placehold.it/300x90?text=social"></p>
+        </div>
     </div>
   </div>
 </footer>
