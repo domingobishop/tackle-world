@@ -6,8 +6,10 @@
         <div class="row bc-info top-buffer">
             <div class="col-sm-12 col-md-4 col-lg-4 text-left">
                 <div class="vip-club clearfix">
+                    <a href="http://tackleworldpl.com.au/vip-club/" title="VIP Club">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/vip-club.png" alt="Tackle World"
                          class="img-responsive">
+                    </a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 text-left">
