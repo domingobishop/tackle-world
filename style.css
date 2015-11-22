@@ -262,7 +262,7 @@ ul.social-buttons li {
   font-weight: 300;
 }
 .gallery img, .bc-attachment img {
-    border: 5px solid #fff;
+    border: 5px solid #fff !important;
     max-width: 100%;
     width: 100%;
     height: auto;
