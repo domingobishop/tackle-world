@@ -22,7 +22,11 @@
                 <?php the_content(); ?>
             </div>
             <!-- .entry-content -->
-
+            <div class="entry-caption">
+                <?php $caption = $attachment->post_excerpt; ?>
+                <p><?php echo $caption; ?>
+                    <?php echo strip_tags(apply_filters ('the_excerpt', $post->post_content)) ?></p>
+            </div>
         </article>
         <!-- #post -->
     </div>
@@ -30,6 +34,8 @@
         <?php if ($bcimage) {
             echo '<div class="feature-img"><img src="' . $bcimage[0] . '" class="img-responsive"></div>';
         } ?>
+        <?php $map = get_post_meta($post->ID, 'Map', true); ?>
+        <?php echo $map; ?>
         <?php if ( is_active_sidebar( 'sidebar' ) ) { ?>
             <div class="widget-area">
                 <?php dynamic_sidebar( 'sidebar' ); ?>

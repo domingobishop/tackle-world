@@ -225,6 +225,9 @@ ul.social-buttons li {
 .entry-content {
     color: #00b2ee;
 }
+.bc-attachment img{
+    margin-top: 2em;
+}
 
  /**
  * Images
@@ -257,4 +260,10 @@ ul.social-buttons li {
   font-size: 14px;
   font-style: italic;
   font-weight: 300;
+}
+.gallery img, .bc-attachment img {
+    border: 5px solid #fff;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
