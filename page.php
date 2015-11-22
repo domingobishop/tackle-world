@@ -28,8 +28,13 @@
     </div>
     <div class="col-md-4 col-lg-4">
         <?php if ($bcimage) {
-            echo '<img src="' . $bcimage[0] . '" class="img-responsive">';
+            echo '<div class="feature-img"><img src="' . $bcimage[0] . '" class="img-responsive"></div>';
         } ?>
+        <?php if ( is_active_sidebar( 'sidebar' ) ) { ?>
+            <div class="widget-area">
+                <?php dynamic_sidebar( 'sidebar' ); ?>
+            </div>
+        <?php } ?>
     </div>
 <?php endwhile; ?>
     </div>
