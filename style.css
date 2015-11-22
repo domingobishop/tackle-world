@@ -193,12 +193,23 @@ ul.social-buttons li {
     width: 36px;
     height: 36px;
 }
+.vip-club {
+    position: relative;
+}
+.vip-club img {
+    position: absolute;
+    top: -50px;
+    padding-bottom: 2em;
+}
 
 
 /**
  * Page & Posts
  * ----------------------------------------------------------------------------
  */
+.bc-home h1, .bc-home h2, .bc-home h3, .bc-home h4, .bc-home h5, .bc-home h6 {
+    color: #0a3a7c;
+}
  .bc-content .container {
      background-color: #ffffff;
  }
