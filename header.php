@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4">
                     <div class="call-us text-right">
-                    <h4>Call (08) 8682 4550</h4>
+                        <h4><a href="tel:+0886824550">Call (08) 8682 4550</a></h4>
                         </div>
                 </div>
             </div>

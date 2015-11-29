@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row top-buffer">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <img src="http://placehold.it/1600x450?text=img" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/home-img.jpg" alt="Tackle World" class="img-responsive">
                 </div>
             </div>
             <div class="row top-buffer">

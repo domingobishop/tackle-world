@@ -48,7 +48,9 @@ table {
 	margin: 0 0 20px;
 	width: 100%;
 }
-
+table h3 {
+    margin: 0;
+}
 caption,
 th,
 td {
