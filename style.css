@@ -48,7 +48,9 @@ table {
 	margin: 0 0 20px;
 	width: 100%;
 }
-
+table h3 {
+    margin: 0;
+}
 caption,
 th,
 td {
@@ -146,8 +148,9 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a3a7c', endColorstr='#00b6ee',GradientType=0 ); /* IE6-9 */
 
 }
-.call-us {
+.call-us a {
     color: #ffffff;
+    padding-top: 1.4em;
 }
 
 @media (max-width: 960px) {
@@ -262,8 +265,11 @@ ul.social-buttons li {
   font-weight: 300;
 }
 .gallery img, .bc-attachment img {
-    border: 5px solid #fff;
+    border: 5px solid #fff !important;
     max-width: 100%;
     width: 100%;
     height: auto;
+}
+.feature-img {
+    margin-bottom: 2em;
 }
