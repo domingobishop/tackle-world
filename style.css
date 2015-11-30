@@ -20,7 +20,7 @@ body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif, sansserif;
 	/*The weights are 300 (light), 400 (normal), 600 (semibold), and 700 (bold) and the only acceptable CSS keyword is "normal". */
 	text-rendering: optimizeLegibility;
-	color: #555;
+	color: #0a3a7c;
 	font-size: 16px;
 	line-height: 1.5;
     background-color: #0a3a7c;
@@ -29,12 +29,12 @@ html, button, input, select, textarea {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Work Sans', 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
+    font-family: 'Architects Daughter', 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
     font-weight: 700;
-    text-transform: uppercase;
+    color: #00b2ee;
 }
 a {
-	color: #0a3a7c;
+	color: #00b2ee;
 }
 a:hover, a:focus {
     color: #3399ff;
@@ -65,7 +65,6 @@ caption {
 
 th {
 	font-weight: bold;
-	text-transform: uppercase;
 }
 
 td {
@@ -151,12 +150,18 @@ header {
 .call-us a {
     color: #ffffff;
     padding-top: 1.4em;
+    font-size: 1.4em;
 }
 
+
 @media (max-width: 960px) {
+    .call-us a {
+        color: #0a3a7c;
+    }
 }
 
 @media (max-width: 768px) {
+
 }
 
 @media (max-width: 643px) {
@@ -224,9 +229,6 @@ ul.social-buttons li {
 }
 .page-header {
     color: #0a3a7c;
-}
-.entry-content {
-    color: #00b2ee;
 }
 .bc-attachment img{
     margin-top: 2em;

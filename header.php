@@ -18,7 +18,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <link rel='stylesheet' id='blank-canvas' href='<?php echo get_template_directory_uri(); ?>/style.css'
           type='text/css' media='all'/>
-    <link href='https://fonts.googleapis.com/css?family=Work+Sans:700|Sarina|Open+Sans:400,700,400italic' rel='stylesheet'
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter|Sarina|Open+Sans:400,700,400italic' rel='stylesheet'
           type='text/css'>
     <?php wp_head(); ?>
 </head>
@@ -36,7 +36,9 @@
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4">
                     <div class="call-us text-right">
-                        <h4><a href="tel:+0886824550">Call (08) 8682 4550</a></h4>
+                        <h4><a href="tel:+0886824550">Call (08) 8682 4550</a><br>
+                            <a href="mailto:sales@tackleworldpl.com.au">Or email us</a>
+                        </h4>
                         </div>
                 </div>
             </div>
