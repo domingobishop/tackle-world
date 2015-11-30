@@ -172,7 +172,7 @@ header {
 }
 
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     .call-us a {
         color: #0a3a7c;
     }
@@ -251,6 +251,9 @@ ul.social-buttons li {
 }
 .bc-attachment img{
     margin-top: 2em;
+}
+.home .bc-content .img-responsive {
+    width: 100% !important;
 }
 
  /**
