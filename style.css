@@ -2,7 +2,7 @@
 Theme Name:     Tackle World
 Theme URI:      http://chrisbishop.me.uk/resources/
 Author:         Chris Bishop
-Description:    A 'blank canvas' with Bootstrap for developing WordPress themes. 
+Description:    A Wordpress theme for Tackle World. The theme is built and crafted to meet user requirements and accessibility web standards. It utilises Wordpress's functions, hooks, classes and methods with Bootstrap under the hood.
 Author URI:     http://chrisbishop.me.uk/
 Version:        0.1.0
 License:		Creative Commons Attribution-Share Alike 3.0 (http://creativecommons.org/licenses/by-sa/3.0/. Feel free to make any changes.
@@ -39,14 +39,29 @@ a {
 a:hover, a:focus {
     color: #3399ff;
 }
+
+caption {
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.top-buffer {
+    margin-top: 1em;
+}
+
+/**
+ * Tables
+ * ----------------------------------------------------------------------------
+ */
+
 table {
-	border-bottom: 1px solid #ededed;
-	border-collapse: collapse;
-	border-spacing: 0;
-	font-size: 1em;
-	line-height: 2;
-	margin: 0 0 20px;
-	width: 100%;
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
 }
 table h3 {
     margin: 0;
@@ -54,26 +69,29 @@ table h3 {
 caption,
 th,
 td {
-	font-weight: normal;
-	text-align: left;
-}
-
-caption {
-	font-size: 1em;
-	margin: 20px 0;
+    font-weight: normal;
+    text-align: left;
 }
 
 th {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 td {
-	border-top: 1px solid #ededed;
-	padding: 6px 10px 6px 0;
+    border-top: 1px solid #ededed;
+    padding: 6px 10px 6px 0;
 }
-
-.top-buffer {
-    margin-top: 1em;
+table .tablepress {
+    table-layout: fixed;
+}
+td.column-1, td.column-3 {
+    width: 25%;
+}
+.tablepress img {
+    max-width: 100%;
+    width: auto;
+    display: block;
+    height: auto;
 }
 
 /**
@@ -203,6 +221,7 @@ ul.social-buttons li {
 }
 .vip-club {
     position: relative;
+    height: 140px;
 }
 .vip-club img {
     position: absolute;
