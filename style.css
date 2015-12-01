@@ -89,7 +89,7 @@ td.column-1, td.column-3 {
 }
 .tablepress img {
     max-width: 100%;
-    width: auto;
+    width: 100%;
     display: block;
     height: auto;
 }
@@ -227,6 +227,15 @@ ul.social-buttons li {
     position: absolute;
     top: -50px;
     padding-bottom: 2em;
+}
+.signup h3 {
+    margin-top: 0;
+}
+.signup .email {
+    width: 100%;
+}
+.mc-field-group {
+    margin-bottom: 0.5em;
 }
 
 
