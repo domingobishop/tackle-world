@@ -18,7 +18,7 @@
                     <form action="//tackleworldpl.us12.list-manage.com/subscribe/post?u=c72d4fb83ff3e18016438a905&amp;id=c1f14b0107" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll" class="signup">
                             <div class="mc-field-group">
-                                <label for="mce-EMAIL"><h3>Subscribe to our mailing list</h3></label><br>
+                                <h3><label for="mce-EMAIL">Subscribe to our mailing list</label></h3>
                                 <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="email address">
                             </div>
                             <div id="mce-responses" class="clear">
