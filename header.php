@@ -39,7 +39,14 @@
                         <h4><a href="tel:+61886824550">Call (08) 8682 4550</a><br>
                             <a href="mailto:sales@tackleworldpl.com.au">Or email us</a>
                         </h4>
-                        </div>
+                    </div>
+                    <?php if ( get_option('cat_enable') == 'enabled' ) { ?>
+                    <div class="catalogue-download">
+                        <a href="<?php echo get_option('cat_url') ?>" title="Catalogue download">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/download.png" alt="Catalogue download" class="img-responsive">
+                        </a>
+                    </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
